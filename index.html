@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lab Three</title>
 </head>
 <body>
@@ -18,27 +19,23 @@
 
     <main>
         <div>
-            <section id="hero-section">
+            <section class="hero-section">
+               <div class="text">
                 <h1>Welcome to Our Website</h1>
                 <p>Your one-stop solution for all your needs. We offer a variety of services</p>
-                <button>Check Services</button>
+                <button onclick="window.location.href='services.html';" class="button">Check Services</button>
+               </div>
             </section>
         </div>
-        <div>
-            <section id="about-section">
-                <h2>About Us</h2>
-                <p>We are dedicated to providing the best services in the industry. Our team of experts is here to help you succeed.</p>
-                <button>Learn More</button>
+        <div class="feature-cards">
+            <section class="card">
+                <h2>Quality Service</h2>
+                <p>We pride ourselves on delivering top-notch services tailored to meet your unique needs.Whether you're looking for innovative strategies, reliable support, or personalized care, we go above and beyond to guarantee satisfaction.  Discover the difference of working with professionals who genuinely care about your goals.</p>
+                <button onclick="window.location.href='services.html';" class="button">Learn More</button>
             </section>
-            <section class="feature-cards">
-                <div class="feature-card">
-                    <h2>Quality Service</h2>
-                    <p>We pride ourselves on delivering top-notch services tailored to meet your unique needs.Whether you're looking for innovative strategies, reliable support, or personalized care, we go above and beyond to guarantee satisfaction.  Discover the difference of working with professionals who genuinely care about your goals.</p>
-                </div>
-                <div class="feature-card">
+            <section class="card">
                     <h2>Expert Team</h2>
                     <p>Our team of experts is here to help you succeed.  Our team is dedicated to excellence, ensuring that every solution we provide aligns perfectly with your expectations. With a strong focus on quality, efficiency, and customer experience, we aim to build lasting relationships founded on trust and success.</p>
-                </div>
             </section>
         </div>
     </main>
