@@ -285,6 +285,11 @@ button:hover {
 button:active {
     transform: scale(1); /* Reset zoom when clicked */
 }
+/* dark theme style */
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+    }
 
 
 
