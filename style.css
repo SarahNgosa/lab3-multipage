@@ -374,3 +374,10 @@ button:active {
         font-size: 0.9em; /* Reduce button font size */
     }
 }
+/* FAQ Styling */
+.answer {
+    display: none;
+    }
+    .answer.visible {
+    display: block;
+    }
